@@ -1,0 +1,74 @@
+Disc CDROMXA_PSX
+
+LeadIn XA
+  Empty 1350
+  PostGap 150
+EndTrack
+
+Track XA
+  Pause 150
+  Volume ISO9660
+    SystemArea licensea.dat
+    PrimaryVolume
+      SystemIdentifier PLAYSTATION
+      VolumeIdentifier DRAGONSLAIR
+      VolumeSetIdentifier PLAYSTATION
+      PublisherIdentifier PLAYSTATION
+      ApplicationIdentifier PLAYSTATION
+      LPath
+      OptionalLpath
+      MPath
+      OptionalMpath
+      Hierarchy
+        File SYSTEM.CNF
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\SYSTEM.CNF
+        EndFile
+        File DRAGONSL.AIR
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\DRAGONSL.AIR
+        EndFile
+        File DRAGONSL.PAL
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\DRAGONSL.PAL
+        EndFile
+        File README.TXT
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\README.TXT
+        EndFile
+        File SOURCE.ZIP
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\SOURCE.ZIP
+        EndFile
+        File DISC.ID
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\DISC.ID
+        EndFile
+        File ASSETS.DAT
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\ASSETS.DAT
+        EndFile
+        File MOVIES.BIN
+          XASource f:\lair1\iso\MOVIES.BIN
+        EndFile
+        File TWDEMO.STR
+          XASource f:\lair1\iso\TWDEMO.STR
+        EndFile
+        File DUMMY.DAT
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\DUMMY.DAT
+        EndFile
+        File MANUAL.PDF
+          XAFileAttributes Form1 Data
+          Source f:\lair1\iso\MANUAL.PDF
+        EndFile
+      EndHierarchy
+    EndPrimaryVolume
+  EndVolume
+EndTrack
+
+LeadOut XA
+  Empty 150
+EndTrack
+
+EndDisc
