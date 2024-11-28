@@ -1,6 +1,6 @@
 PS Homebrew Dragon's Lair
 
-https://archive.org/details/@qbl
+https://archive.org/details/PSX_Homebrew_Dragons_Lair_Trilogy
 
 
 1. What's this?
